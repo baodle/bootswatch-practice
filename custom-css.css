@@ -1,0 +1,49 @@
+.title{
+    font-family: 'courier new';
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 5.5rem;
+    letter-spacing: -0.2rem;
+}
+
+.menu-nav{
+    font-weight: bold;
+}
+
+.bg-intro{
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.bg-detail{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bg-first{
+    background-color: rgb(231, 241, 85);
+}
+
+.bg-second{
+    background-color: rgb(173, 173, 173);
+}
+
+.bg-third{
+    background-color: rgb(184, 133, 88);
+}
+
+.bg-bottom{
+    background-color: rgb(111, 109, 221);
+}
+
+.card-body-height{
+    line-height: 2.2rem;
+}
+
+.btn-stats{
+    --bs-btn-bg: rgb(61, 61, 231);
+    --bs-btn-hover-bg: rgb(25, 25, 114);
+}
+
+.btn-features{
+    --bs-btn-bg: rgb(236, 39, 121);
+    --bs-btn-hover-bg: rgb(160, 33, 54);
+}

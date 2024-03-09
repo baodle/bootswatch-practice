@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Social Media Popularity</title>
+    <link
+      rel="stylesheet"
+      href="bootstrap-quartz.css" />
+    <link rel="stylesheet" href="custom-css.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="px-0" id="title">
+        <div class="container py-2 text-center">
+            <p class="title">Social Media Popularity</p>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <ul class="navbar-nav m-auto">        
+                <li class="px-3 nav-item">
+                    <a class="nav-item nav-link navtext fs-4 menu-nav text-body-tertiary" href="index.html">Home</a>
+                </li>
+                <li class="px-3 nav-item">
+                    <a class="nav-item nav-link active navtext fs-4 text-info menu-nav" aria-current="page" href="#">Details</a>
+                </li>
+                <li class="px-3 nav-item">
+                    <a class="nav-item nav-link navtext fs-4 menu-nav text-body-tertiary" href="about.html">About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="position-fixed" style="right: 1rem; bottom: 1rem;">
+        <a class="btn btn-secondary bg-gradient fs-2 py-1 rounded-4" type="button" href="#title">
+            &uarr;
+        </a>
+    </div>
+    <hr class="mt-0 pb-4 border-2 opacity-50">
+    <div class="container bg-detail p-2 my-4 rounded position-relative">
+        <div class="row">
+            <div class="position-absolute text-center bg-first bg-gradient rounded-circle" style="font-size: 4rem; width: 6rem; height: 6rem; top: -3rem; left: -3rem;">
+                <p class="fw-bold">1</p>
+            </div>
+            <div class="col ps-2">
+                <div class="d-flex justify-content-center" style="padding-bottom: 0.4rem;">   
+                    <img src="img/facebookicon.png" height="100" width="auto">
+                    <p class="d-flex align-items-end fw-bolder ps-1 my-1" style="color: rgb(39, 39, 141); font-size: 2.5rem;">Facebook</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="mx-auto d-block" src="img/facebook1.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/facebook2.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/facebook3.jpg" height="200" width="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="facebookblock">
+                <div class="container d-flex justify-content-center">
+                    <p class="px-3">
+                        <button class="btn btn-stats bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#facebookstat" aria-expanded="false" aria-controls="facebookstat">
+                            Stats
+                        </button>
+                    </p>
+                    <p class="px-3">
+                        <button class="btn btn-features bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#facebookfeature" aria-expanded="false" aria-controls="facebookfeature">
+                            Features
+                        </button>
+                    </p>
+                </div>              
+                <div class="collapse show collapse-vertical position-absolute" data-bs-parent="#facebookblock" id="facebookstat" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <ul>
+                            <li>Over 3 billions monthly users</li>
+                            <li>Over 2 billions active users</li>
+                            <li>Available in over 100 languages</li>
+                            <li>Over 1.3 billions users use Messenger monthly</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse collapse-vertical position-absolute" data-bs-parent="#facebookblock" id="facebookfeature" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <div class="d-flex">
+                            <ul>
+                                <li>News Feed</li>
+                                <li>Friend Requests / Follows</li>
+                                <li>Creating Groups</li>
+                                <li>Creating Events</li>
+                            </ul>
+                            <ul>
+                                <li>Messenger</li>
+                                <li>Marketplace</li>
+                                <li>Facebook Watch (Videos)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-detail p-2 my-4 rounded position-relative">
+        <div class="row">
+            <div class="position-absolute text-center bg-second rounded-circle" style="font-size: 3.5rem; width: 5.5rem; height: 5.5rem; top: -2.7rem; left: -2.7rem;">
+                <p class="fw-bold">2</p>
+            </div>
+            <div class="col ps-2">
+                <div class="d-flex justify-content-center" style="padding-bottom: 0.4rem;">   
+                    <img src="img/youtubeicon.png" height="100" width="auto">
+                    <p class="d-flex align-items-end fw-bolder ps-1 my-1" style="color: rgb(224, 22, 22); font-size: 2.5rem;">Youtube</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="mx-auto d-block" src="img/youtube1.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/youtube2.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/youtube3.jpg" height="200" width="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="youtubeblock">
+                <div class="container d-flex justify-content-center">
+                    <p class="px-3">
+                        <button class="btn btn-stats bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#youtubestat" aria-expanded="false" aria-controls="youtubestat" aria-pressed="true">
+                            Stats
+                        </button>
+                    </p>
+                    <p class="px-3">
+                        <button class="btn btn-features bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#youtubefeature" aria-expanded="false" aria-controls="youtubefeature">
+                            Features
+                        </button>
+                    </p>
+                </div>              
+                <div class="collapse show collapse-vertical position-absolute" data-bs-parent="#youtubeblock" id="youtubestat" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <ul>
+                            <li>More than 2.7 billions monthly users</li>
+                            <li>Over 1 billion hours watched daily</li>
+                            <li>Available in more than 100 countries and 80 languages</li>
+                            <li>Diversity of contents</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse collapse-vertical position-absolute" data-bs-parent="#youtubeblock" id="youtubefeature" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <div class="d-flex">
+                            <ul>
+                                <li>Search / Watch Videos</li>
+                                <li>Subscriptions</li>
+                                <li>Video Playlists</li>
+                                <li>Comments /  Interactions</li>
+                            </ul>
+                            <ul>
+                                <li>Livestreaming</li>
+                                <li>Youtube Music</li>
+                                <li>Youtube Shorts</li>
+                                <li>Youtube VR</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container bg-detail p-2 my-4 rounded position-relative">
+        <div class="row">
+            <div class="position-absolute text-center bg-third bg-gradient rounded-circle" style="font-size: 3rem; width: 5rem; height: 5rem; top: -2.5rem; left: -2.5rem;">
+                <p class="fw-bold">3</p>
+            </div>
+            <div class="col ps-2">
+                <div class="d-flex justify-content-center" style="padding-bottom: 0.4rem;">   
+                    <img src="img/instagramicon.png" height="100" width="auto">
+                    <p class="d-flex align-items-end fw-bolder ps-1 my-1" style="color: rgb(224, 69, 199); font-size: 2.5rem;">Instagram</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="mx-auto d-block" src="img/instagram1.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/instagram2.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/instagram3.jpg" height="200" width="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="instagramblock">
+                <div class="container d-flex justify-content-center">
+                    <p class="px-3">
+                        <button class="btn btn-stats bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#instagramstat" aria-expanded="false" aria-controls="instagramstat">
+                            Stats
+                        </button>
+                    </p>
+                    <p class="px-3">
+                        <button class="btn btn-features bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#instagramfeature" aria-expanded="false" aria-controls="instagramfeature">
+                            Features
+                        </button>
+                    </p>
+                </div>              
+                <div class="collapse show collapse-vertical position-absolute" data-bs-parent="#instagramblock" id="instagramstat" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <ul>
+                            <li>2.3 billions monthly users</li>
+                            <li>Over 500 millions daily users</li>
+                            <li>Available in over 190 countries</li>
+                            <li>Over 1 millions influences</li>
+                            <li>More than 2 millions monthly advertisers</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse collapse-vertical position-absolute" data-bs-parent="#instagramblock" id="instagramfeature" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <div class="d-flex">
+                            <ul>
+                                <li>Instagram Stories</li>
+                                <li>Stories Explore</li>
+                                <li>Instagram Reels (Shorts)</li>
+                                <li>Instagram TV</li>
+                            </ul>
+                            <ul>
+                                <li>Shopping</li>
+                                <li>Instagram Live</li>
+                                <li>Filters / Effect</li>
+                                <li>Stories Highlight</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-detail p-2 my-4 rounded position-relative">
+        <div class="row">
+            <div class="col ps-2">
+                <div class="d-flex justify-content-center" style="padding-bottom: 0.4rem;">   
+                    <img src="img/tiktokicon.png" height="100" width="auto">
+                    <p class="d-flex align-items-end fw-bolder ps-1 my-1" style="color: rgb(34, 34, 34); font-size: 2.5rem;">Tiktok</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="mx-auto d-block" src="img/tiktok1.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/tiktok2.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/tiktok3.jpg" height="200" width="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="tiktokblock">
+                <div class="container d-flex justify-content-center">
+                    <p class="px-3">
+                        <button class="btn btn-stats bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#tiktokstat" aria-expanded="false" aria-controls="tiktokstat">
+                            Stats
+                        </button>
+                    </p>
+                    <p class="px-3">
+                        <button class="btn btn-features bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#tiktokfeature" aria-expanded="false" aria-controls="tiktokfeature">
+                            Features
+                        </button>
+                    </p>
+                </div>              
+                <div class="collapse show collapse-vertical position-absolute" data-bs-parent="#tiktokblock" id="tiktokstat" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <ul>
+                            <li>More than 1.5 billions users monthly</li>
+                            <li>Most downloaded mobile app</li>
+                            <li>Millions videos / shorts uploaded daily</li>
+                            <li>Available in over 150 countries</li>
+                            <li>90% users access the app more than once daily</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse collapse-vertical position-absolute" data-bs-parent="#tiktokblock" id="tiktokfeature" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <div class="d-flex">
+                            <ul>
+                                <li>Short-form Videos</li>
+                                <li>Effect / Filters</li>
+                                <li>Music Library</li>
+                                <li>Trends</li>
+                            </ul>
+                            <ul>
+                                <li>Duet / Stitch (Collaborations)</li>
+                                <li>Livestreaming</li>
+                                <li>Discover</li>
+                                <li>Marketplace</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-detail p-2 my-4 rounded position-relative">
+        <div class="row">
+            <div class="col ps-2">
+                <div class="d-flex justify-content-center" style="padding-bottom: 0.4rem;">   
+                    <img src="img/redditicon.png" height="100" width="auto">
+                    <p class="d-flex align-items-end fw-bolder ps-1 my-1" style="color: rgb(241, 93, 35); font-size: 2.5rem;">Reddit</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="mx-auto d-block" src="img/reddit1.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/reddit2.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/reddit3.jpg" height="200" width="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="redditblock">
+                <div class="container d-flex justify-content-center">
+                    <p class="px-3">
+                        <button class="btn btn-stats bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#redditstat" aria-expanded="false" aria-controls="redditstat">
+                            Stats
+                        </button>
+                    </p>
+                    <p class="px-3">
+                        <button class="btn btn-features bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#redditfeature" aria-expanded="false" aria-controls="redditfeature">
+                            Features
+                        </button>
+                    </p>
+                </div>              
+                <div class="collapse show collapse-vertical position-absolute" data-bs-parent="#redditblock" id="redditstat" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <ul>
+                            <li>More than 850 millions monthly users</li>
+                            <li>Over 140,000 active subreddits (communities)</li>
+                            <li>Over 21 billion monthly pageviews</li>
+                            <li>Available globally</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse collapse-vertical position-absolute" data-bs-parent="#redditblock" id="redditfeature" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <div class="d-flex">
+                            <ul>
+                                <li>Create / Join Subreddits (Communities)</li>
+                                <li>Post In Subreddits</li>
+                                <li>Upvote / Downvote</li>
+                                <li>Comment On Posts</li>
+                            </ul>
+                            <ul>
+                                <li>Multimedias</li>
+                                <li>Reddit Awards</li>
+                                <li>Moderation Tools</li>
+                                <li>AMA (Ask Me Anything) Sessions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-detail p-2 my-4 rounded position-relative">
+        <div class="row">
+            <div class="col ps-2">
+                <div class="d-flex justify-content-center" style="padding-bottom: 0.4rem;">   
+                    <img src="img/twittericon.png" height="100" width="auto">
+                    <p class="d-flex align-items-end fw-bolder ps-1 my-1" style="color: rgb(47, 105, 153); font-size: 2.5rem;">Twitter</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="mx-auto d-block" src="img/twitter1.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/twitter2.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/twitter3.jpg" height="200" width="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="twitterblock">
+                <div class="container d-flex justify-content-center">
+                    <p class="px-3">
+                        <button class="btn btn-stats bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#twitterstat" aria-expanded="false" aria-controls="twitterstat">
+                            Stats
+                        </button>
+                    </p>
+                    <p class="px-3">
+                        <button class="btn btn-features bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#twitterfeature" aria-expanded="false" aria-controls="twitterfeature">
+                            Features
+                        </button>
+                    </p>
+                </div>              
+                <div class="collapse show collapse-vertical position-absolute" data-bs-parent="#twitterblock" id="twitterstat" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <ul>
+                            <li>Over 421 users monthly</li>
+                            <li>Over 192 million monetizable daily active users</li>
+                            <li>More than 500 millions daily tweets</li>
+                            <li>Over 360,000 verified accounts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse collapse-vertical position-absolute" data-bs-parent="#twitterblock" id="twitterfeature" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <div class="d-flex">
+                            <ul>
+                                <li>Creating Tweets</li>
+                                <li>Retweets</li>
+                                <li>Hashtags (For Related Tweets)</li>
+                                <li>Mention Users</li>
+                            </ul>
+                            <ul>
+                                <li>Trending Topics</li>
+                                <li>Twitter Spaces</li>
+                                <li>Twitter Polls</li>
+                                <li>Twitter Communities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-detail p-2 my-4 rounded position-relative">
+        <div class="row">
+            <div class="col ps-2">
+                <div class="d-flex justify-content-center" style="padding-bottom: 0.4rem;">   
+                    <img src="img/snapchaticon.png" height="100" width="auto">
+                    <p class="d-flex align-items-end fw-bolder ps-1 my-1" style="color: rgb(235, 219, 80); font-size: 2.5rem;">Snapchat</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="mx-auto d-block" src="img/snapchat1.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/snapchat2.jpg" height="200" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block" src="img/snapchat3.jpg" height="200" width="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="snapchatblock">
+                <div class="container d-flex justify-content-center">
+                    <p class="px-3">
+                        <button class="btn btn-stats bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#snapchatstat" aria-expanded="false" aria-controls="snapchatstat">
+                            Stats
+                        </button>
+                    </p>
+                    <p class="px-3">
+                        <button class="btn btn-features bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#snapchatfeature" aria-expanded="false" aria-controls="snapchatfeature">
+                            Features
+                        </button>
+                    </p>
+                </div>              
+                <div class="collapse show collapse-vertical position-absolute" data-bs-parent="#snapchatblock" id="snapchatstat" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <ul>
+                            <li>Approximately 414 millions monthly users</li>
+                            <li>Over 265 million daily active users</li>
+                            <li>Over 6 billion daily video views</li>
+                            <li>Over 1.5 million community filters</li>
+                            <li>More than 4 million advertisers</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse collapse-vertical position-absolute" data-bs-parent="#snapchatblock" id="snapchatfeature" style="width: 46%;">
+                    <div class="card card-body fs-5 card-body-height" style="height: 15rem;">
+                        <div class="d-flex">
+                            <ul>
+                                <li>Snap (Videos / Photos)</li>
+                                <li>Snapchat Stories</li>
+                                <li>Discover Tab</li>
+                                <li>AR Lenses</li>
+                            </ul>
+                            <ul>
+                                <li>Filters</li>
+                                <li>Snap Map</li>
+                                <li>Group Chat</li>
+                                <li>Snap Originals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-4" style="bottom: 0;">
+        <div class="container-fluid text-center my-0 pt-3 pb-2" style="background-color:#00000044">
+            <p class="text-white">Created by Bao Le. <br> Contact me at: <a href="mailto:someone@example.com">baolehouth@gmail.com</a> </p>
+        </div>
+    </div>
+  </body>
+</html>
