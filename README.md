@@ -1,5 +1,5 @@
 # bootswatch-practice
-<h1>Assignment 2 (Trying out Bootswatch Theme)</h1>
+<h2>Assignment 2 (Trying out Bootswatch Theme)</h2>
 
 A mini project about a rough insight of today social medias' popularities that utilitize quartz theme from bootswatch.
 
